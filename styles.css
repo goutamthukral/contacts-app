@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.left-nav{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.display-page{
+    padding:30px;
+    float: left;
+}
+
+.contacts{
+    padding: 30px;
+}
+
+.contact-photo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.input-forms{
+    display:flex;
+    flex-direction:column;
+
+}
