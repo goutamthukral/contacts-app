@@ -1,29 +1,132 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .left-nav{
     float: left;
+    width: 25%;
+}
+
+.left-nav .flex-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    background-color: #286983;
+    text-align: center;
+    color: #fffaf3;
+    height: 740px;
+}
+
+.left-nav .contacts-symbol{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.left-nav .create-new-contact{
+    margin-bottom: 10px;
+}
+
+.left-nav .create-new-contact a{
+    text-decoration: none;
+}
+
+.left-nav .create-new-contact a:visited{
+    color: inherit;
+}
+
+.left-nav .create-new-contact a:hover{
+    color:#9ccfd8;
 }
 
 .display-page{
-    padding:30px;
+    background-color: #ebbcba;
     float: left;
+    width: 75%;
+    height: 740px;
 }
 
-.contacts{
-    padding: 30px;
+.display-page .flex-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.contact-photo img{
+.display-page .contact{
+    width: 100px;
+    height:60px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #9ccfd8;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.display-page a{
+    text-decoration: none;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 80px;
+}
+
+.display-page .display-contact{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.display-page .display-contact .contact-name{
+    font-size: 30px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.display-page .display-contact .contact-photo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.display-page .display-contact .form-buttons{
+    padding-top: 30px;
+}
+
+.display-page .display-contact .form-buttons input{
+    background-color:#56949f;
+    padding: 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.display-page .edit-contact{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.display-page .edit-contact .contact-photo img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
 
-.input-forms{
+.display-page .input-form-flex-container form .input-field{
     display:flex;
     flex-direction:column;
+    position: relative;
+    padding:5px;
+    margin-top: 10px;
+    width: 250px;
+}
 
+.display-page .input-form-flex-container form .submit-buttons{
+    margin-top: 30px;
+}
+
+.display-page .input-form-flex-container form .submit-buttons input{
+    background-color: #56949f;
+    padding: 5px;
+    text-align: center;
+    margin-left: 30px;
 }
